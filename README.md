@@ -1,8 +1,8 @@
 
 # `next-i18n-export` Example
 
-This repository is a showcase for the [`next-i18n-export`](https://github.com/martinkr/next-i18n-export/) project.
-See a running example at [next-i18n-export-example.vercel.app](https://next-i18n-export-example.vercel.app)
+This repository is a showcase for the [`next-export-i18n`](https://github.com/martinkr/next-export-i18n/) project.
+See a running example at [next-export-i18n-example.vercel.app](https://next-export-i18n-example.vercel.app)
 
 ## About `next-i18n-export`
 Unfortunately, `Next.js` i18n-routing does not supports `next export`.
@@ -13,7 +13,8 @@ For the different types of pre-rendering in `Next.js`, take a look at my article
 
 
 ## Getting Started with `next-i18n-export`
-Quick start with [`next-i18n-export`](https://github.com/martinkr/next-i18n-export/)
+Quick start with [`next-export-i18n`](https://github.com/martinkr/next-export-i18n/)
+1. Run `yarn add next-i18n-export` or `npm install next-i18n-export`
 2. Add your `translation files` to the `i18n/` folder
 3. `Require` your `translation files` in `i18n/index`
 4. `import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n'` in your `pages` and get the hooks 
@@ -21,11 +22,11 @@ Quick start with [`next-i18n-export`](https://github.com/martinkr/next-i18n-expo
 const { t } = useTranslation();
 const [query] = useLanguageQuery();
 ````
-4. Add the `<LanguageSwitcher lang={string}>` component to change the language (or create your own language switcher)
-5. Add the `query` from `useLanguageQuery` to your internal links to enhance them with the language parameter (`<Link href={{ query: query … }}>…`)
-6. Add the translations with `t(key)` from `useTranslation` to your elements. They will be automatically update as soon as the language change.
+5. Add the `<LanguageSwitcher lang={string}>` component to change the language (or create your own language switcher)
+6. Add the `query` from `useLanguageQuery` to your internal links to enhance them with the language parameter (`<Link href={{ query: query … }}>…`)
+7. Add the translations with `t(key)` from `useTranslation` to your elements. They will be automatically update as soon as the language change.
 
-For in depth explanation please see the [next-i18n-export documentation](https://github.com/martinkr/next-i18n-export/blob/main/README.md)
+For in depth explanation please see the [next-export-i18n documentation](https://github.com/martinkr/next-export-i18n/blob/main/README.md)
 
 ## Getting Started with `Next.js`
 
