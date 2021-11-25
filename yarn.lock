@@ -3650,8 +3650,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-"next-export-i18n@file:../next-export-i18n/module/dist":
-  version "1.2.0"
+next-export-i18n@latest:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/next-export-i18n/-/next-export-i18n-1.2.1.tgz#06f7653134e1cce89dbeabdb9355c46b2337eeca"
+  integrity sha512-ra7TelbYaDbwTetABLIeT09SXmWoymetMgmJhwsiJ4VNh26pkjLmtvKU+5plyYrkSSgDb7RhtXLFfgNTcrbgCg==
   dependencies:
     mustache "^4.2.0"
 
