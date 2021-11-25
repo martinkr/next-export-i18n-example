@@ -1,5 +1,7 @@
 
-# `next-i18n-export` Example
+# `next-i18n-export` Example [![Build Status](https://app.travis-ci.com/martinkr/next-export-i18n-example.svg?branch=main)](https://app.travis-ci.com/martinkr/next-export-i18n-example)
+
+
 
 This repository is a showcase for the [`next-export-i18n`](https://github.com/martinkr/next-export-i18n/) project.
 See a running example at [next-export-i18n-example.vercel.app](https://next-export-i18n-example.vercel.app)
