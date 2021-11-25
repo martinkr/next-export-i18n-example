@@ -1,0 +1,5 @@
+language: node_js
+node_js:
+  - 16
+before_install: cd module
+script: yarn build && yarn start
