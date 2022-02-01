@@ -1,6 +1,6 @@
 {
   "name": "next-export-i18n_example",
-  "version": "1.3.0",
+  "version": "1.4.1",
   "description": "Internationalize next.js with true support for next export. Example page",
   "keywords": [
     "next.js",
