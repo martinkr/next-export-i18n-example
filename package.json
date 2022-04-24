@@ -21,23 +21,24 @@
     "export": "yarn yaml2json && next build && next export && npx serve ./out"
   },
   "dependencies": {
-    "next": "11.0.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "^12.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^14.1.1",
     "@testing-library/react-hooks": "^7.0.1",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^26.0.24",
-    "@types/react": "17.0.15",
+    "@types/jest": "^27.4.1",
+    "@types/react": "^18.0.5",
     "eslint": "7.32.0",
     "eslint-config-next": "11.0.1",
-    "jest": "^27.0.6",
-    "next-export-i18n": "latest",
-    "ts-jest": "^27.0.4",
-    "typescript": "4.3.5",
+    "jest": "^27.5.1",
+    "next-export-i18n": "^2.0.0",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3",
     "yamljs": "^0.3.0"
   }
 }
