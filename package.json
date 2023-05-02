@@ -21,6 +21,7 @@
     "export": "yarn yaml2json && next build && next export && npx serve ./out"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.0.0",
     "next": "^12.1.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
@@ -29,8 +30,8 @@
     "@testing-library/dom": "^8.13.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
-    "@testing-library/user-event": "^14.1.1",
     "@testing-library/react-hooks": "^7.0.1",
+    "@testing-library/user-event": "^14.1.1",
     "@types/jest": "^27.4.1",
     "@types/react": "^18.0.5",
     "eslint": "7.32.0",
