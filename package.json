@@ -1,7 +1,7 @@
 {
   "name": "next-export-i18n_example",
   "version": "2.2.0",
-  "description": "Internationalize next.js with true support for next export. Example page",
+  "description": "Internationalize next.js with true support for next export. Example page for the pages directory (v2.x.x)",
   "keywords": [
     "next.js",
     "react.js",
